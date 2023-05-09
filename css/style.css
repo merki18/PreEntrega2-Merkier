@@ -1,0 +1,338 @@
+.logo {
+    width: 60%;
+    height: auto;
+    float: left;
+    margin-left: 40%;
+}
+
+.iconos li {
+    position: relative;
+    right: 250px;
+    list-style: none;
+}
+
+.iconos img {
+    width: 2%;
+    height: auto;
+    float: right;
+}
+
+
+.menu li {
+    background-color: white;
+    position: relative;
+    top: 70px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    border: 1px solid;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu .activo {
+    text-decoration: underline;
+}
+
+.menu li:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: static;
+    margin-top: 30px;
+    bottom: 0;
+    background-color: rgb(0, 155, 0);
+    color: white;
+    padding: 10px;
+    height: 100px;
+}
+
+.footer img {
+    margin-left: 250px;
+    width: 5%;
+}
+
+.footer p {
+    position: relative;
+    text-align: center;
+    bottom: 65px;
+}
+
+.icono-footer img {
+    width: 2%;
+    height: auto;
+    float: right;
+}
+
+.icono-footer li {
+    position: relative;
+    right: 250px;
+    bottom: 100px;
+    list-style: none;
+    bottom: 65px;
+}
+
+.footer-mobile {
+    position: relative;
+    display: flex;
+    background-color: rgb(0, 155, 0);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-mobile img {
+    width: 30%;
+    display: block;
+}
+
+.icono-footer-mobile li {
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.whatsapp img {
+    width: 2%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.eslogan {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(0, 155, 0);
+    color: white;
+    padding: 10px;
+}
+
+.eslogan h1 {
+    position: relative;
+    text-align: center;
+}
+
+.eslogan h2 {
+    position: relative;
+    text-align: center;
+}
+
+.carrusel {
+    margin-top: 150px;
+}
+
+
+.destacados h3 {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    left: 830px;
+    background-color: rgb(0, 155, 0);
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+    width: 250px;
+}
+
+.destacados img {
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 190px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    position: relative;
+    width: 180px;
+    height: 180px;
+}
+
+.destacados a {
+    text-align: center;
+    position: relative;
+    left: 900px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    padding: 20px;
+    overflow: hidden;
+    width: 250px;
+    text-decoration: none;
+}
+
+.destacados a:hover {
+    color: white;
+    background-color: rgb(0, 155, 0);
+}
+
+.pipa h3 {
+    float: left;
+    text-align: center;
+    position: relative;
+    margin-top: 200px;
+    left: 250px;
+    background-color: rgb(0, 155, 0);
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+    width: 250px;
+}
+
+.pipa img {
+    margin-top: 100px;
+    margin-right: 190px;
+    margin-bottom: 50px;
+    margin-left: 550px;
+    position: relative;
+}
+
+.pipa a {
+    text-align: center;
+    position: relative;
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    padding: 20px;
+    overflow: hidden;
+    width: 250px;
+    text-decoration: none;
+}
+
+.pipa a:hover {
+    color: white;
+    background-color: rgb(0, 155, 0);
+}
+
+
+
+.pipaProducto h2 {
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+    left: 250px;
+    background-color: rgb(0, 155, 0);
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+    width: 150px;
+}
+
+.pipaProducto img {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: auto;
+    left: 450px;
+}
+
+.pipaProducto p {
+    float: left;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(0, 155, 0);
+    left: 250px;
+    font-size: 20px;
+    color: white;
+}
+
+.donde-encontrarnos p {
+    background-color: rgb(0, 155, 0);
+    font-size: 20px;
+    color: white;
+}
+
+.donde-encontrarnos .pedidos p {
+    all: unset;
+    font-size: 20px;
+}
+
+.sobre-nosotros p{
+    height: 100%;
+    background-color: rgb(0, 155, 0);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+.sobre-nosotros img {
+    width: 60%;
+    margin-top: 3%;
+}
+
+.sobre-nosotros form input {
+    position: relative;
+}
+
+.sobre-nosotros form input:focus {
+    border: 2px solid black;
+}
+
+.consulta p {
+    position: relative;
+    all: unset;
+    background-color: rgb(0, 155, 0);
+    color: white;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        display: none;
+    }
+
+    .icono-footer {
+        display: none;
+    }
+
+    .eslogan {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .whatsapp {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        min-width: 125px;
+    }
+
+    .eslogan {
+        min-width: 1068px;
+    }
+
+    .footer {
+        min-width: 1068px;
+    }
+
+    .footer-mobile p {
+        display: none;
+    }
+
+    .footer-mobile img {
+        display: none;
+    }
+
+    .icono-footer-mobile {
+        display: none;
+    }
+
+
+}
