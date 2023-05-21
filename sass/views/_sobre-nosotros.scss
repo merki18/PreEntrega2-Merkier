@@ -1,0 +1,31 @@
+.sobre-nosotros {
+    p {
+      height: 100%;
+      background-color: $verde;
+      color: white;
+      padding: 10px;
+      font-size: 20px;
+      margin-top: 3%;
+    }
+  
+    img {
+      width: 60%;
+      margin-top: 3%;
+    }
+  
+    form input {
+      position: relative;
+  
+      &:focus {
+        border: 2px solid black;
+      }
+    }
+  }
+  
+  .consulta p {
+    position: relative;
+    all: unset;
+    background-color: $verde;
+    color: white;
+    text-align: center;
+  }

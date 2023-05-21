@@ -1,0 +1,14 @@
+{
+  "name": "preentrega1merkier",
+  "version": "1.0.0",
+  "description": "actualmente estan avanzadas las paginas del index, donde encontrarnos y sobre nosotros. Las ultimas 2 son responsive.",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./css/main.css -w --no-source-map"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
