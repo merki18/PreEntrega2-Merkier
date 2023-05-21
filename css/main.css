@@ -173,35 +173,36 @@
 }
 
 .destacados h3 {
-  text-align: center;
   position: relative;
-  margin-top: 100px;
-  left: 830px;
+  margin-top: 70px;
   background-color: rgb(0, 155, 0);
   color: white;
-  padding: 20px;
-  overflow: hidden;
-  width: 250px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  min-width: 200px;
 }
 .destacados img {
   display: inline-block;
-  justify-content: space-between;
-  margin-right: 190px;
-  margin-bottom: 50px;
-  margin-left: 250px;
-  position: relative;
-  width: 180px;
-  height: 180px;
+  width: 50%;
+  min-width: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
 }
 .destacados a {
   text-align: center;
   position: relative;
-  left: 50%;
   background-color: white;
   color: black;
   border: 1px solid;
   padding: 20px;
   text-decoration: none;
+  width: 10%;
+  height: 10%;
+  min-width: 120px;
+  min-height: 60px;
+  margin-left: 45%;
 }
 .destacados a:hover {
   color: white;
@@ -209,32 +210,36 @@
 }
 
 .pipa h3 {
-  float: left;
-  text-align: center;
   position: relative;
-  margin-top: 200px;
-  left: 250px;
+  margin-top: 70px;
   background-color: rgb(0, 155, 0);
   color: white;
-  padding: 20px;
-  overflow: hidden;
-  width: 250px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  min-width: 120px;
+  min-height: 60px;
 }
 .pipa img {
-  margin-top: 100px;
-  margin-right: 190px;
-  margin-bottom: 50px;
-  margin-left: 550px;
-  position: relative;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 25%;
+  min-width: 200px;
+  height: auto;
 }
 .pipa a {
   text-align: center;
   position: relative;
   background-color: white;
-  border: 1px solid;
   color: black;
+  border: 1px solid;
   padding: 20px;
   text-decoration: none;
+  width: 10%;
+  height: 10%;
+  min-width: 120px;
+  margin-left: 45%;
 }
 .pipa a:hover {
   color: white;
@@ -242,7 +247,8 @@
 }
 
 @media (max-width: 768px) {
-  .footer, .icono-footer {
+  .footer,
+  .icono-footer {
     display: none;
   }
   .eslogan {
@@ -257,10 +263,12 @@
   .logo {
     min-width: 125px;
   }
-  .eslogan, .footer {
+  .eslogan,
+  .footer {
     min-width: 1068px;
   }
-  .footer-mobile p, .footer-mobile img {
+  .footer-mobile p,
+  .footer-mobile img {
     display: none;
   }
   .icono-footer-mobile {

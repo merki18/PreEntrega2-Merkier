@@ -1,4 +1,4 @@
-@import './utils/variables'; 
+@import './utils/variables';
 @import './utils/global';
 @import './components/menu';
 @import './components/footer';
@@ -7,131 +7,144 @@
 @import './views/productos';
 @import './views/donde-encontrarnos';
 @import './views/sobre-nosotros';
-  
+
+.carrusel {
+  margin-top: 150px;
+}
+
+.destacados {
+  h3 {
+    position: relative;
+    margin-top: 70px;
+    background-color: $verde;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    min-width: 200px;
+  }
+
+  img {
+    display: inline-block;
+    width: 50%;
+    min-width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    
+  }
+
+  a {
+    text-align: center;
+    position: relative;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    padding: 20px;
+    text-decoration: none;
+    width: 10%;
+    height: 10%;
+    min-width: 120px;
+    min-height: 60px;
+    margin-left: 45%;
+    
+
+    &:hover {
+      color: white;
+      background-color: $verde;
+    }
+  }
+}
+
+
+.pipa {
+  h3 {
+    position: relative;
+    margin-top: 70px;
+    background-color: $verde;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    min-width: 120px;
+    min-height: 60px;
+  }
+
+  img {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    min-width: 200px;
+    height: auto;
+  }
+
+  a {
+    text-align: center;
+    position: relative;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    padding: 20px;
+    text-decoration: none;
+    width: 10%;
+    height: 10%;
+    min-width: 120px;
+    margin-left: 45%;
+
+    &:hover {
+      color: white;
+      background-color: $verde;
+    }
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .footer,
+  .icono-footer {
+    display: none;
+  }
+
+  .eslogan {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .whatsapp {
+    display: none;
+  }
 
   
-  .carrusel {
-    margin-top: 150px;
+ 
+
+}
+
+@media (min-width: 768px) {
+  .logo {
+    min-width: 125px;
   }
-  
-  .destacados {
-    h3 {
-      text-align: center;
-      position: relative;
-      margin-top: 100px;
-      left: 830px;
-      background-color: $verde;
-      color: white;
-      padding: 20px;
-      overflow: hidden;
-      width: 250px;
-    }
-  
+
+  .eslogan,
+  .footer {
+    min-width: 1068px;
+  }
+
+  .footer-mobile {
+
+    p,
     img {
-      display: inline-block;
-      justify-content: space-between;
-      margin-right: 190px;
-      margin-bottom: 50px;
-      margin-left: 250px;
-      position: relative;
-      width: 180px;
-      height: 180px;
-    }
-  
-    a {
-      text-align: center;
-      position: relative;
-      left: 50%;
-      background-color: white;
-      color: black;
-      border: 1px solid;
-      padding: 20px;
-      text-decoration: none;
-  
-      &:hover {
-        color: white;
-        background-color: $verde;
-      }
-    }
-  }
-  
-  .pipa {
-    h3 {
-      float: left;
-      text-align: center;
-      position: relative;
-      margin-top: 200px;
-      left: 250px;
-      background-color: $verde;
-      color: white;
-      padding: 20px;
-      overflow: hidden;
-      width: 250px;
-    }
-  
-    img {
-      margin-top: 100px;
-      margin-right: 190px;
-      margin-bottom: 50px;
-      margin-left: 550px;
-      position: relative;
-    }
-  
-    a {
-      text-align: center;
-      position: relative;
-      background-color: white;
-      border: 1px solid;
-      color: black;
-      padding: 20px;
-      text-decoration: none;
-      
-  
-      &:hover {
-        color: white;
-        background-color: $verde;
-      }
-    }
-  }
-  
-  
-  
-  
-  
-  
-  
-  @media (max-width: 768px) {
-    .footer, .icono-footer {
-      display: none;
-    }
-  
-    .eslogan {
-      margin-top: 60px;
-      margin-bottom: 60px;
-    }
-  
-    .whatsapp {
       display: none;
     }
   }
-  
-  @media (min-width: 768px) {
-    .logo {
-      min-width: 125px;
-    }
-  
-    .eslogan, .footer {
-      min-width: 1068px;
-    }
-  
-    .footer-mobile {
-      p, img {
-        display: none;
-      }
-    }
-  
-    .icono-footer-mobile {
-      display: none;
-    }
+
+  .icono-footer-mobile {
+    display: none;
   }
-  
+}
