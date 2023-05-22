@@ -18,15 +18,35 @@
       border: 1px solid;
       padding: 3px;
       font-size: 20px;
+      transition: all 0.5s;
+    }
+
+    li:hover {
+      text-decoration: underline;
+      border: 2px solid;
+      padding: 0.5px;
+      background-color: $verde;
+      color: white;
     }
   
     a {
       color: black;
       text-decoration: none;
+      transition: color 0.5s;
+    }
+
+    a:hover {
+      color: white;
     }
   
-    .activo, li:hover {
+  
+
+    .activo {
       text-decoration: underline;
+      background-color: $verde;
+      color: white;
+      
+      
     }
   }
   
