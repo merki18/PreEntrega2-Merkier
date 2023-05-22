@@ -6,6 +6,7 @@
       padding: 10px;
       font-size: 20px;
       margin-top: 3%;
+      box-shadow: 5px 4px 9px 1px rgba(128, 0, 0, 1);
     }
   
     img {
@@ -15,9 +16,14 @@
   
     form input {
       position: relative;
+      border: 1px solid black;
+      width: 200px;
+      transition: all 0.5s;
   
       &:focus {
         border: 2px solid black;
+        width: 300px;
+        box-shadow: 5px 4px 9px 1px rgba(128, 0, 0, 1);
       }
     }
   }
@@ -28,4 +34,7 @@
     background-color: $verde;
     color: white;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 4px 9px 1px rgba(128, 0, 0, 1);
   }
