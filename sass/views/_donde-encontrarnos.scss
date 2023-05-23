@@ -1,14 +1,14 @@
 .donde-encontrarnos {
-    p {
-      background-color: $verde;
-      font-size: 20px;
-      color: white;
-      margin-bottom: 20px;
-      box-shadow: 5px 4px 9px 1px rgba(128, 0, 0, 1);
-    }
-  
-    .pedidos p {
-      all: unset;
-      font-size: 20px;
-    }
+  p {
+    background-color: $verde;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    box-shadow: 5px 4px 9px 1px rgba(128, 0, 0, 1);
   }
+
+  .pedidos p {
+    all: unset;
+    font-size: 20px;
+  }
+}

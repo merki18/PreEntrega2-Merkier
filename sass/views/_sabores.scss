@@ -16,7 +16,7 @@
         min-width: 300px;
     }
 
-    h3{
+    h3 {
         background-color: $verde;
         color: white;
         text-align: center;
@@ -28,29 +28,29 @@
     li {
         list-style: none;
         color: white;
-        background-color: rgb(2, 118, 0);
+        background-color: $verde-oscuro;
         padding: 5px;
         max-width: fit-content;
         box-shadow: 9px 7px 7px 0px rgba(128, 0, 0, 1);
     }
 
-    
+
 }
 
 @media (min-width: 992px) {
     .sabores {
         .derecha {
-          margin-left: 20%;
+            margin-left: 20%;
         }
-    
-      }
+
+    }
 }
 
-@media (min-width: 768px ) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
     .sabores {
         .derecha {
-          margin-left: 15%;
+            margin-left: 10%;
         }
-    
-      }
+
+    }
 }
