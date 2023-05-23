@@ -13,20 +13,20 @@
 
   p {
     position: relative;
-      background-color: $verde-oscuro;
-      font-size: 20px;
-      color: white;
-      width: 50%;
-      min-width: 250px;
-      padding: 10px;
-      box-shadow: 5px 4px 9px 1px rgba(128, 0, 0, 1);
+    background-color: $verde-oscuro;
+    font-size: 20px;
+    color: white;
+    width: 50%;
+    min-width: 250px;
+    padding: 10px;
+    box-shadow: 5px 4px 9px 1px rgba(128, 0, 0, 1);
   }
 
   img {
     width: 40%;
     min-width: 350px;
     margin-bottom: 20px;
-}
+  }
 }
 
 .general {
@@ -38,16 +38,16 @@
 @media (max-width: 768px) {
 
   .producto {
-  h3 {
-    margin-left: 25%;
-  }
+    h3 {
+      margin-left: 25%;
+    }
 
-  p {
-    margin-left: 25%;
-  }
+    p {
+      margin-left: 25%;
+    }
 
-  img {
-    margin-left: 25%;
+    img {
+      margin-left: 25%;
+    }
   }
-}
 }
