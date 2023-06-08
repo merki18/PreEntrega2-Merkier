@@ -15,16 +15,34 @@
     min-width: 300px;
   }
 
-  form input {
-    position: relative;
-    border: 1px solid black;
-    width: 200px;
-    transition: all 0.5s;
+  form {
+    textarea {
+      position: relative;
+      border: 1px solid black;
+      width: 450px;
+      height: 60px;
+      transition: all 0.5s;
 
-    &:focus {
-      border: 2px solid black;
-      width: 300px;
-      box-shadow: 5px 4px 9px 1px rgba(128, 0, 0, 1);
+      &:focus {
+        border: 2px solid black;
+        width: 700px;
+        height: 90px;
+        box-shadow: 5px 4px 9px 1px rgba(128, 0, 0, 1);
+      }
+    }
+
+
+    input {
+      position: relative;
+      border: 1px solid black;
+      width: 150px;
+      transition: all 0.5s;
+
+      &:focus {
+        border: 2px solid black;
+        width: 250px;
+        box-shadow: 5px 4px 9px 1px rgba(128, 0, 0, 1);
+      }
     }
   }
 }
@@ -38,4 +56,28 @@
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: 5px 4px 9px 1px rgba(128, 0, 0, 1);
+}
+
+@media (max-width: 768px) {
+  .sobre-nosotros {
+    form {
+      input {
+        width: 100px;
+
+        &:focus {
+          width: 150px;
+        }
+      }
+
+      textarea {
+        width: 200px;
+        height: 40px;
+
+        &:focus {
+          width: 250px;
+          height: 60px;
+        }
+      }
+    }
+  }
 }

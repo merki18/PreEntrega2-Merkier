@@ -2,7 +2,7 @@
   width: 60%;
   height: auto;
   float: left;
-  margin-left: 40%;
+  margin-left: 35%;
 }
 
 .menu li {
@@ -41,23 +41,32 @@
   color: white;
 }
 
+@media (max-width: 1160px) {
+  .menu li {
+    margin: 0px;
+    margin-bottom: 10%;
+  }
+}
 .footer {
-  position: static;
+  position: relative;
   margin-top: 30px;
-  bottom: 0;
+  width: 100%;
   background-color: rgb(0, 155, 0);
   color: white;
   padding: 10px;
   height: 100px;
 }
 .footer img {
-  margin-left: 250px;
+  margin-left: 10%;
   width: 5%;
 }
 .footer p {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
   text-align: center;
-  bottom: 65px;
 }
 
 .icono-footer img {
@@ -103,6 +112,21 @@
   z-index: 1;
 }
 
+@media (max-width: 768px) {
+  .footer,
+  .icono-footer {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .footer-mobile p,
+  .footer-mobile img {
+    display: none;
+  }
+  .icono-footer-mobile {
+    display: none;
+  }
+}
 .eslogan {
   width: 100%;
   position: relative;
@@ -117,6 +141,15 @@
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .eslogan {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .whatsapp {
+    display: none;
+  }
+}
 .sabores p {
   position: relative;
   background-color: rgb(0, 155, 0);
@@ -229,15 +262,28 @@
   margin-top: 3%;
   min-width: 300px;
 }
+.sobre-nosotros form textarea {
+  position: relative;
+  border: 1px solid black;
+  width: 450px;
+  height: 60px;
+  transition: all 0.5s;
+}
+.sobre-nosotros form textarea:focus {
+  border: 2px solid black;
+  width: 700px;
+  height: 90px;
+  box-shadow: 5px 4px 9px 1px rgb(128, 0, 0);
+}
 .sobre-nosotros form input {
   position: relative;
   border: 1px solid black;
-  width: 200px;
+  width: 150px;
   transition: all 0.5s;
 }
 .sobre-nosotros form input:focus {
   border: 2px solid black;
-  width: 300px;
+  width: 250px;
   box-shadow: 5px 4px 9px 1px rgb(128, 0, 0);
 }
 
@@ -252,6 +298,22 @@
   box-shadow: 5px 4px 9px 1px rgb(128, 0, 0);
 }
 
+@media (max-width: 768px) {
+  .sobre-nosotros form input {
+    width: 100px;
+  }
+  .sobre-nosotros form input:focus {
+    width: 150px;
+  }
+  .sobre-nosotros form textarea {
+    width: 200px;
+    height: 40px;
+  }
+  .sobre-nosotros form textarea:focus {
+    width: 250px;
+    height: 60px;
+  }
+}
 .carrusel {
   margin-top: 150px;
   margin-left: 13%;
@@ -266,16 +328,14 @@
   text-align: center;
   width: 50%;
   margin-left: 25%;
-  min-width: 200px;
   box-shadow: 5px 4px 9px 1px rgb(128, 0, 0);
 }
 .destacados img {
   display: inline-block;
   width: 50%;
-  min-width: 150px;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 100px;
+  margin-left: 25%;
 }
 .destacados a {
   text-align: center;
@@ -283,12 +343,11 @@
   background-color: white;
   color: black;
   border: 1px solid;
-  padding: 20px;
+  padding: 2%;
   text-decoration: none;
   width: 10%;
   height: 10%;
-  min-width: 120px;
-  min-height: 60px;
+  min-width: 80px;
   margin-left: 45%;
 }
 .destacados a:hover {
@@ -304,8 +363,6 @@
   text-align: center;
   width: 50%;
   margin-left: 25%;
-  min-width: 120px;
-  min-height: 60px;
   box-shadow: 5px 4px 9px 1px rgb(128, 0, 0);
 }
 .pipa img {
@@ -313,7 +370,6 @@
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 25%;
-  min-width: 200px;
   height: auto;
 }
 .pipa a {
@@ -322,11 +378,11 @@
   background-color: white;
   color: black;
   border: 1px solid;
-  padding: 20px;
+  padding: 2%;
   text-decoration: none;
   width: 10%;
   height: 10%;
-  min-width: 120px;
+  min-width: 80px;
   margin-left: 45%;
 }
 .pipa a:hover {
@@ -335,31 +391,13 @@
 }
 
 @media (max-width: 768px) {
-  .footer,
-  .icono-footer {
-    display: none;
+  .destacados img {
+    margin-left: 25%;
   }
-  .eslogan {
-    margin-top: 60px;
-    margin-bottom: 60px;
+  .destacados a {
+    margin-left: 40%;
   }
-  .whatsapp {
-    display: none;
-  }
-}
-@media (min-width: 768px) {
-  .logo {
-    min-width: 125px;
-  }
-  .eslogan,
-  .footer {
-    min-width: 1068px;
-  }
-  .footer-mobile p,
-  .footer-mobile img {
-    display: none;
-  }
-  .icono-footer-mobile {
-    display: none;
+  .pipa a {
+    margin-left: 40%;
   }
 }
